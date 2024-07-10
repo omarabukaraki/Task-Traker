@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #40a883, #2d9cc9);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.tasks{
+  width: 80%;   
+  background-color: rgba(240, 248, 255, 0.538);
+  margin-top: 10%;
+  border-radius: 1rem;
+}
+.tasks h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #3b4048;
+}
+.addTaskSection{
+    display: flex;
+    justify-content: center;
+}
+.addTaskSection input{
+    height: 2.8rem;
+    width: 60%;
+    margin-right: 2%;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.addTaskSection button{
+    height: 3rem;
+    width: 15%;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: rgba(240, 248, 255, 0.641);
+    border: none;
+    border-radius: 0.4rem;
+    color: #3b4048;
+}
+.displayTasks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.taskComponent{
+    width: 75%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 3.5rem;
+    border-radius: 0.4rem;
+    padding: 0 1rem;
+}
+.btns button{
+  padding: 0.5rem 1rem;
+  margin-left: 0.3rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 0.4rem;
+}
+.editBtn{
+    background-color: #4dad52;
+}
+.deleteBtn{
+    background-color: #2693f4;
+}
+.title{
+    overflow: hidden;
+    width: 65%;
+}
