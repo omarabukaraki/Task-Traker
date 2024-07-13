@@ -78,3 +78,11 @@ body{
     overflow: hidden;
     width: 65%;
 }
+@media (max-width:668px) {
+    .title{
+        width: 30%;
+        font-size: .6rem;
+    }
+}
+
+
