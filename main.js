@@ -74,8 +74,17 @@ function createTask(todo) {
     });
 
     buttonD.addEventListener('click', () => {
-        deleteTask(todo.id);
-        taskComponent.remove();
+        Swal.fire({
+            title: "Do you want to delete task?",
+            showCancelButton: true,
+            confirmButtonText: "Yes",
+          }).then((result) => {
+            if (result.isConfirmed) {
+                deleteTask(todo.id);
+                taskComponent.remove();
+              Swal.fire(`Your task ${todo.todo} is deleted!`, "", "success");
+            }
+          });
     });
 }
 //End create task function
