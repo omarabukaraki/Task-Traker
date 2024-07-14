@@ -1,5 +1,5 @@
-
 const apiUrl = 'https://dummyjson.com/todos';
+
 
 const displayTasks = document.querySelector('.displayTasks');
 displayTasks.innerHTML = '';
@@ -151,6 +151,8 @@ function deleteTask(id) {
         .then(console.log);
 }
 //End Delete function
+
+
 
 
 

@@ -3,12 +3,12 @@ body{
     justify-content: center;
     background: linear-gradient(to right, #40a883, #2d9cc9);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
 .tasks{
   width: 80%;   
   background-color: rgba(240, 248, 255, 0.538);
   margin-top: 10%;
+  margin-bottom: 10%;
   border-radius: 1rem;
 }
 .tasks h1{
